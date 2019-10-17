@@ -522,6 +522,7 @@ DOMAIN-SUFFIX,win.gdt.qq.com
 DOMAIN-SUFFIX,ws.sj.qq.com
 DOMAIN-SUFFIX,wup.imtt.qq.com
 DOMAIN-SUFFIX,yun-hl.3g.qq.com
+OMAIN-SUFFIX,safebrowsing.urlsec.qq.com
 ## Sina
 DOMAIN-SUFFIX,2016.sina.cn
 DOMAIN-SUFFIX,ad.sina.com.cn
@@ -1251,6 +1252,7 @@ DOMAIN-SUFFIX,pagead2.googlesyndication.com
 DOMAIN-SUFFIX,ssl.google-analytics.com
 DOMAIN-SUFFIX,tpc.googlesyndication.com
 DOMAIN-SUFFIX,video-ad-stats.googlesyndication.com
+DOMAIN-SUFFIX,safebrowsing.googleapis.com
 # Other AdBlock
 DOMAIN-SUFFIX,0.r.msn.com
 DOMAIN-SUFFIX,0aqpqdju.me
