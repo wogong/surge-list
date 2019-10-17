@@ -3209,20 +3209,6 @@ DOMAIN-SUFFIX,zszrb.com
 DOMAIN-SUFFIX,zz2.hslyqs.com
 DOMAIN-SUFFIX,zzsx8.com
 DOMAIN-SUFFIX,zzy1.quyaoya.com
-# URL-REGEX
-URL-REGEX,^https?://.+/videos/other/.+
-URL-REGEX,^https?://.+\.beacon\.qq\.com
-URL-REGEX,^https?://.+\.gdt\.qq\.com
-URL-REGEX,^https?://.+\.l\.qq\.com
-URL-REGEX,^https?://ad\d\.sina\.com
-URL-REGEX,^https?://ad\d\.sina\.com.cn
-URL-REGEX,^https?://app\.58\.com/api/log
-URL-REGEX,^https?://d\d\.sina\.com\.cn
-URL-REGEX,^https?://d\d\.sinaimg\.cn
-URL-REGEX,^https?://sax\d\.sina\.com\.cn
-URL-REGEX,^https?://api\d\.tuisong\.baidu\.com
-URL-REGEX,^https?://sa\d\.tuisong\.baidu\.com
-URL-REGEX,^https?://update\.pan\.baidu\.com/statistics\?
 # IP-CIDR
 IP-CIDR,101.227.200.0/24,no-resolve
 IP-CIDR,101.227.200.11/32,no-resolve
