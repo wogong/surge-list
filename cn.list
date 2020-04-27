@@ -16,6 +16,10 @@ DOMAIN-SUFFIX,tmall.com
 DOMAIN-SUFFIX,youku.com
 IP-CIDR,198.11.188.0/25
 IP-CIDR,198.11.136.0/24
+# Stream
+DOMAIN-SUFFIX,bilivideo.com
+DOMAIN-SUFFIX,acgvideo.com
+DOMAIN-SUFFIX,huya.com
 # Misc
 DOMAIN-SUFFIX,alibaba.com
 DOMAIN-SUFFIX,bootcss.com
@@ -35,3 +39,5 @@ DOMAIN-SUFFIX,zimuzu.tv
 DOMAIN-SUFFIX,zmzapi.com
 DOMAIN-SUFFIX,zmzapi.net
 DOMAIN-SUFFIX,zmzfile.com
+# Other
+DOMAIN-SUFFIX,dns.nextdns.io

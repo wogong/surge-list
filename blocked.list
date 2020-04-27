@@ -33,3 +33,8 @@ DOMAIN-SUFFIX,amazon.co.jp
 DOMAIN-SUFFIX,theinitium.com
 DOMAIN-SUFFIX,awsstatic.com
 DOMAIN-SUFFIX,ampproject.org
+DOMAIN-SUFFIX,letsencrypt.org
+DOMAIN-SUFFIX,washingtonpost.com
+DOMAIN,www.amazon.co.jp
+DOMAIN-SUFFIX,digicert.com
+DOMAIN-SUFFIX,reddit.com
