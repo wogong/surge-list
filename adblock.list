@@ -1,25 +1,74 @@
-# AD Block KEYWORD
-DOMAIN-KEYWORD,admarvel
-DOMAIN-KEYWORD,admaster
-DOMAIN-KEYWORD,adsage
-DOMAIN-KEYWORD,adsmogo
-DOMAIN-KEYWORD,adsrvmedia
-DOMAIN-KEYWORD,adwords
-DOMAIN-KEYWORD,adservice
-DOMAIN-KEYWORD,crashlytics
-DOMAIN-KEYWORD,domob
-DOMAIN-KEYWORD,duomeng
-DOMAIN-KEYWORD,dwtrack
-DOMAIN-KEYWORD,guanggao
-DOMAIN-KEYWORD,lianmeng
-DOMAIN-KEYWORD,dnserror
-DOMAIN-KEYWORD,omgmta
-DOMAIN-KEYWORD,openx
-DOMAIN-KEYWORD,partnerad
-DOMAIN-KEYWORD,pingfore
-DOMAIN-KEYWORD,supersonicads
-DOMAIN-KEYWORD,uedas
-DOMAIN-KEYWORD,umeng
-DOMAIN-KEYWORD,usage
-DOMAIN-KEYWORD,wlmonitor
-DOMAIN-KEYWORD,zjtoolbar
+# > 雪球
+URL-REGEX,^https?+:\/\/101\.201\.175\.228\/ads\/display
+URL-REGEX,^https?+:\/\/api\.xueqiu\.com\/ads\/display
+URL-REGEX,^https?+:\/\/(?>promo|api)\.xueqiu\.com\/promotion\/(?:feed_)?+display
+URL-REGEX,^https?+:\/\/(?>101\.201\.175\.228|182\.92\.251\.113)\/promotion\/(?:feed_)?+display
+# > 知乎
+URL-REGEX,^https?+:\/\/api\.zhihu\.com\/(?>launch|real_time)
+URL-REGEX,^https?+:\/\/api\.zhihu\.com\/commercial_api\/(?>launch|real_time)
+URL-REGEX,^https?+:\/\/api\.zhihu\.com\/fringe\/ad
+URL-REGEX,^https?+:\/\/api\.zhihu\.com\/(?>ab|adx|xen|drama|zst|ad-style-service|market\/popover|search\/(?>top|tab|preset)|.*?(?>guide|recommendations|extended|featured-comment-ad))
+URL-REGEX,^https?+:\/\/www\.zhihu\.com\/api\/v4\/community-ad
+# > 云麦好轻
+URL-REGEX,^https?+:\/\/restapi\.iyunmai\.com\/api\/ios\/ad\/
+# > 中国银行
+URL-REGEX,^https?+:\/\/mlife\.jf365\.boc\.cn\/AppPrj\/FirstPic\.do\?
+# > 中国工商银行
+URL-REGEX,^https?+:\/\/v\.icbc\.com\.cn\/userfiles\/Resources\/WAP\/advertisement\/
+# > 中国招商银行
+URL-REGEX,^https?+:\/\/pic1cdn\.cmbchina\.com\/appinitads\/
+# > 中国民生银行
+URL-REGEX,^https?+:\/\/www\.cmbc\.com\.cn\/m\/image\/loadingpage\/
+# > 中国广发银行
+URL-REGEX,^https?+:\/\/mps\.95508\.com\/mps\/club\/cardPortals\/adv\/.{25}\.jpg
+# > 买单吧
+URL-REGEX,^https?+:\/\/creditcardapp\.bankcomm\.com\/mapp\/common\/queryGuidePageAds\.do$
+URL-REGEX,^https?+:\/\/creditcardapp\.bankcomm\.com\/mapp\/common\/getPopAds\.do$
+# > 中国联通
+URL-REGEX,^https?+:\/\/m\.client\.10010\.com\/mobileService\/customer\/accountListData\.htm
+URL-REGEX,^https?+:\/\/m\.client\.10010\.com\/uniAdmsInterface\/getWelcomeAd
+# >> 微信
+URL-REGEX,^https?+:\/\/mp\.weixin\.qq\.com\/mp\/(?>ad_|advertisement|getappmsgad)
+# > 什么值得买
+URL-REGEX,^https?+:\/\/api\.smzdm\.com\/v\d\/util\/loading
+URL-REGEX,^https?+:\/\/app-api\.smzdm\.com\/util\/loading
+URL-REGEX,^https?+:\/\/s\d\.zdmimg\.com\/www\/api\/v\d\/api\/thirdAd\.php
+# > 苏宁
+URL-REGEX,^https?+:\/\/image\.suning\.cn\/uimg\/ma\/ad\/
+# > Keep
+URL-REGEX,^https?+:\/\/api\.gotokeep\.com\/ads
+URL-REGEX,^https?+:\/\/static1\.keepcdn\.com\/.+?\d{3}x\d{4}
+# > 京东
+URL-REGEX,^https?+:\/\/api\.m\.jd\.com\/client\.action\?functionId=start$
+URL-REGEX,^https?+:\/\/b?dsp-x\.jd\.com\/adx\/
+URL-REGEX,^https?+:\/\/ms\.jr\.jd\.com\/gw\/generic\/base\/na\/m\/adInfo
+URL-REGEX,^https?+:\/\/ms\.jr\.jd\.com\/gw\/generic\/aladdin\/na\/m\/getLoadingPicture
+# > 虎牙
+URL-REGEX,^https?+:\/\/business\.msstatic\.com\/advertiser\/
+URL-REGEX,^https?+:\/\/cdnfile1\.msstatic\.com\/cdnfile\/appad\/resource
+# > Google
+# >> Youtube
+URL-REGEX,^https?+:\/\/.+?\.googlevideo\.com\/.+?(?>&oad|ctier)
+URL-REGEX,^https?+:\/\/\w+?\.youtube\.com\/api\/.+?ad
+URL-REGEX,^https?+:\/\/\w+?\.youtube\.com\/p(?>agead|tracking)
+URL-REGEX,^https?+:\/\/youtubei\.googleapis\.com\/youtubei\/.+?(?>ad|log)_
+# > 豆瓣
+URL-REGEX,^https?+:\/\/api\.douban\.com\/v\d\/app_ads\/
+# > 斗鱼
+URL-REGEX,^https?+:\/\/rtbapi\.douyucdn\.cn\/japi\/sign\/app\/getinfo
+# >> 爱奇艺
+URL-REGEX,^https?+:\/\/iface\.iqiyi\.com\/api\/getNewAdInfo
+URL-REGEX,^https?+:\/\/.+?\/(?>mixer|track2)\?
+URL-REGEX,^https?+:\/\/act\.vip\.iqiyi\.com\/interact\/api\/show\.do
+URL-REGEX,^https?+:\/\/act\.vip\.iqiyi\.com\/interact\/api\/v2\/show
+# > 哔哩哔哩
+URL-REGEX,^https?+:\/\/app\.bilibili\.com\/x\/v\d\/splash\/
+URL-REGEX,^https?+:\/\/manga\.bilibili\.com\/twirp\/comic\.v\d\.Comic\/Flash
+# >> 天猫
+URL-REGEX,^https?+:\/\/gw\.alicdn\.com\/tfs\/TB1.+?750-\d{4}
+# >> 淘宝
+URL-REGEX,^https?+:\/\/(?>heic|gw)\.alicdn\.com\/tfs\/TB1.+?-\d{4}-\d{4}\.jpg_1200x1200q90\.jpg_\.\w{3,4}+$
+URL-REGEX,^https?+:\/\/heic\.alicdn\.com\/tps\/i4\/.+?\.jpg_1200x1200q90\.jpg_\.heic$
+URL-REGEX,^https?+:\/\/gw\.alicdn\.com\/tfs\/.+?\d{4}-\d{4}\/[a-z]{3}$
+# > 拼多多
+URL-REGEX,^https?+:\/\/api\.yangkeduo\.com\/api\/cappuccino\/splash

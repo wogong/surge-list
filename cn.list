@@ -8,6 +8,7 @@ DOMAIN-KEYWORD,taobao
 DOMAIN-KEYWORD,alicdn
 DOMAIN-KEYWORD,aliyun
 DOMAIN-KEYWORD,iqiyi
+DOMAIN-KEYWORD,bilibili
 DOMAIN-KEYWORD,baidu
 DOMAIN-SUFFIX,jd.com
 DOMAIN-SUFFIX,mi.com
@@ -22,14 +23,18 @@ DOMAIN-SUFFIX,acgvideo.com
 DOMAIN-SUFFIX,huya.com
 # Misc
 DOMAIN-SUFFIX,alibaba.com
+DOMAIN-SUFFIX,bilivideo.com
 DOMAIN-SUFFIX,bootcss.com
 DOMAIN-SUFFIX,biquge.com.tw
 DOMAIN-SUFFIX,ip.bjango.com
 DOMAIN-SUFFIX,ip.sb
+DOMAIN-SUFFIX,ip.cn
 DOMAIN-SUFFIX,loli.net
+DOMAIN-SUFFIX,ip.fm
 DOMAIN-SUFFIX,maoyun.tv
 DOMAIN-SUFFIX,mmstat.com
 DOMAIN-SUFFIX,moke.com
+DOMAIN-SUFFIX,pstatp.com
 DOMAIN-SUFFIX,sb.sb
 DOMAIN-SUFFIX,servicewechat.com
 DOMAIN-SUFFIX,sm.ms
@@ -41,3 +46,4 @@ DOMAIN-SUFFIX,zmzapi.net
 DOMAIN-SUFFIX,zmzfile.com
 # Other
 DOMAIN-SUFFIX,dns.nextdns.io
+IP-CIDR,47.91.210.61/32
