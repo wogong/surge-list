@@ -4,12 +4,18 @@ USER-AGENT,MicroMessenger*
 USER-AGENT,WeChat*
 # Ali
 DOMAIN-KEYWORD,alipay
+DOMAIN-KEYWORD,alibaba
+DOMAIN-KEYWORD,dingtalk
 DOMAIN-KEYWORD,taobao
 DOMAIN-KEYWORD,alicdn
 DOMAIN-KEYWORD,aliyun
 DOMAIN-KEYWORD,iqiyi
 DOMAIN-KEYWORD,bilibili
 DOMAIN-KEYWORD,baidu
+DOMAIN-SUFFIX,dingding.xin
+DOMAIN-SUFFIX,ddurl.to
+DOMAIN-SUFFIX,laiwang.com
+DOMAIN-SUFFIX,lwurl.to
 DOMAIN-SUFFIX,jd.com
 DOMAIN-SUFFIX,mi.com
 DOMAIN-SUFFIX,qq.com
@@ -28,6 +34,7 @@ DOMAIN-SUFFIX,ip.fm
 DOMAIN-SUFFIX,maoyun.tv
 DOMAIN-SUFFIX,mmstat.com
 DOMAIN-SUFFIX,moke.com
+DOMAIN-SUFFIX,mxhchina.com
 DOMAIN-SUFFIX,pstatp.com
 DOMAIN-SUFFIX,sb.sb
 DOMAIN-SUFFIX,servicewechat.com
