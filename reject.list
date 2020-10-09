@@ -3206,6 +3206,10 @@ DOMAIN-SUFFIX,zszrb.com
 DOMAIN-SUFFIX,zz2.hslyqs.com
 DOMAIN-SUFFIX,zzsx8.com
 DOMAIN-SUFFIX,zzy1.quyaoya.com
+DOMAIN-SUFFIX,yangniupiju.com
+DOMAIN-SUFFIX,lionettrip.xyz
+DOMAIN-SUFFIX,jingteinv.com
+DOMAIN-SUFFIX,xn--io0a7i.com
 # URL-REGEX
 URL-REGEX,^https?://.+/videos/other/.+
 URL-REGEX,^https?://.+\.beacon\.qq\.com
