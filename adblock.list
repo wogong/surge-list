@@ -39,31 +39,9 @@ URL-REGEX,^https?+:\/\/image\.suning\.cn\/uimg\/ma\/ad\/
 URL-REGEX,^https?+:\/\/api\.gotokeep\.com\/ads
 URL-REGEX,^https?+:\/\/static1\.keepcdn\.com\/.+?\d{3}x\d{4}
 # > 京东
-URL-REGEX,^https?+:\/\/api\.m\.jd\.com\/client\.action\?functionId=start$
-URL-REGEX,^https?+:\/\/b?dsp-x\.jd\.com\/adx\/
-URL-REGEX,^https?+:\/\/ms\.jr\.jd\.com\/gw\/generic\/base\/na\/m\/adInfo
-URL-REGEX,^https?+:\/\/ms\.jr\.jd\.com\/gw\/generic\/aladdin\/na\/m\/getLoadingPicture
-# > 虎牙
-URL-REGEX,^https?+:\/\/business\.msstatic\.com\/advertiser\/
-URL-REGEX,^https?+:\/\/cdnfile1\.msstatic\.com\/cdnfile\/appad\/resource
-# > Google
-# >> Youtube
-URL-REGEX,^https?+:\/\/.+?\.googlevideo\.com\/.+?(?>&oad|ctier)
-URL-REGEX,^https?+:\/\/\w+?\.youtube\.com\/api\/.+?ad
-URL-REGEX,^https?+:\/\/\w+?\.youtube\.com\/p(?>agead|tracking)
-URL-REGEX,^https?+:\/\/youtubei\.googleapis\.com\/youtubei\/.+?(?>ad|log)_
+
 # > 豆瓣
 URL-REGEX,^https?+:\/\/api\.douban\.com\/v\d\/app_ads\/
-# > 斗鱼
-URL-REGEX,^https?+:\/\/rtbapi\.douyucdn\.cn\/japi\/sign\/app\/getinfo
-# >> 爱奇艺
-URL-REGEX,^https?+:\/\/iface\.iqiyi\.com\/api\/getNewAdInfo
-URL-REGEX,^https?+:\/\/.+?\/(?>mixer|track2)\?
-URL-REGEX,^https?+:\/\/act\.vip\.iqiyi\.com\/interact\/api\/show\.do
-URL-REGEX,^https?+:\/\/act\.vip\.iqiyi\.com\/interact\/api\/v2\/show
-# > 哔哩哔哩
-URL-REGEX,^https?+:\/\/app\.bilibili\.com\/x\/v\d\/splash\/
-URL-REGEX,^https?+:\/\/manga\.bilibili\.com\/twirp\/comic\.v\d\.Comic\/Flash
 # >> 天猫
 URL-REGEX,^https?+:\/\/gw\.alicdn\.com\/tfs\/TB1.+?750-\d{4}
 # >> 淘宝
