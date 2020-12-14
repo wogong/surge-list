@@ -4,23 +4,28 @@ USER-AGENT,MicroMessenger*
 USER-AGENT,WeChat*
 # Ali
 DOMAIN-KEYWORD,alipay
+DOMAIN-KEYWORD,alibaba
+DOMAIN-KEYWORD,dingtalk
 DOMAIN-KEYWORD,taobao
 DOMAIN-KEYWORD,alicdn
 DOMAIN-KEYWORD,aliyun
 DOMAIN-KEYWORD,iqiyi
 DOMAIN-KEYWORD,bilibili
 DOMAIN-KEYWORD,baidu
+DOMAIN-SUFFIX,dingding.xin
+DOMAIN-SUFFIX,ddurl.to
+DOMAIN-SUFFIX,laiwang.com
+DOMAIN-SUFFIX,lwurl.to
 DOMAIN-SUFFIX,jd.com
 DOMAIN-SUFFIX,mi.com
 DOMAIN-SUFFIX,qq.com
 DOMAIN-SUFFIX,tmall.com
 DOMAIN-SUFFIX,youku.com
-IP-CIDR,198.11.188.0/25
-IP-CIDR,198.11.136.0/24
 # Stream
 DOMAIN-SUFFIX,bilivideo.com
 DOMAIN-SUFFIX,acgvideo.com
 DOMAIN-SUFFIX,huya.com
+DOMAIN-SUFFIX,myqcloud.com
 # Misc
 DOMAIN-SUFFIX,alibaba.com
 DOMAIN-SUFFIX,bilivideo.com
@@ -34,7 +39,9 @@ DOMAIN-SUFFIX,ip.fm
 DOMAIN-SUFFIX,maoyun.tv
 DOMAIN-SUFFIX,mmstat.com
 DOMAIN-SUFFIX,moke.com
+DOMAIN-SUFFIX,mxhchina.com
 DOMAIN-SUFFIX,pstatp.com
+DOMAIN-SUFFIX,pianku.tv
 DOMAIN-SUFFIX,sb.sb
 DOMAIN-SUFFIX,servicewechat.com
 DOMAIN-SUFFIX,sm.ms
@@ -46,4 +53,3 @@ DOMAIN-SUFFIX,zmzapi.net
 DOMAIN-SUFFIX,zmzfile.com
 # Other
 DOMAIN-SUFFIX,dns.nextdns.io
-IP-CIDR,47.91.210.61/32
